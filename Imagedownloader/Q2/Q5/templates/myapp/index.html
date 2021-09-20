@@ -1,0 +1,14 @@
+{% extends 'myapp/base.html' %}
+{% load static %}
+{% block body %}
+<form method="POST" enctype="multipart/form-data">
+    {% csrf_token %}
+    <h4>Key Word:</h4><input type="text" class="form-control" name="name" id="name"><br>
+    <h4># of images</h4><input type="text" class="form-control"  name="no" id="no"><br>
+    <h4>Email id</h4><input type="mail" class="form-control"  name="email" id="email"><br>
+    <input class="btn btn-warning" type="submit" name="" id="">
+    
+    <!-- <submit type="submit" class="btn btn-warning">SUBMIT</submit> -->
+</form>
+{% endblock %}
+    
