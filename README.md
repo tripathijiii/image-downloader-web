@@ -1,5 +1,7 @@
 # IMAGE DOWNLOADER
+# ChromeDriver
 This is an image downloader using django and chromedriver, while using this please change the chromedriver file to the one that is compatible to your version of chrome.
+and also paste the complete path of your chromedriver in the task.py
 
 This uses celery and redis, so install both of them before using this downloader
 
