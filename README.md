@@ -16,7 +16,7 @@ This uses celery and redis, so install both of them before using this downloader
 # REDIS
 first you can install redis by $ brew install redis
 then start redis using $ brew services start redis
-redis will start, to check you can type redis-cli ping.  you should recieve PONG
+redis will start, to check you can type redis-cli ping.  you should recieve PING
 this is for mac
 
 for windows you can install redis directly from https://redis.io/download
